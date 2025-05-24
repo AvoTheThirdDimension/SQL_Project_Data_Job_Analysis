@@ -12,8 +12,7 @@ AND job_work_from_home = True AND COALESCE(salary_year_avg, salary_hour_avg * 40
 ORDER BY salary_annual DESC
 LIMIT 10
  
-/* 
-2nd Iteration */
+/* 2nd Iteration */
 
 SELECT 
    job_postings.job_title,
